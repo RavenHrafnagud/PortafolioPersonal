@@ -6,7 +6,8 @@
         <meta name="description" content="Pagina de Portafolio personal"/>
         <meta name="robots" content="index,follow"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Styles/style.css"/>
         <!-- <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 768px)"/>
         <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1200px)"/> -->
         <title>Portafolio Personal</title>
@@ -14,10 +15,10 @@
     <body>
         <header>
             <nav id="navbar">
-                <ul>
-                    <li><a href="#welcome-section"></a>Acerca</li>
-                    <li><a href="#projects"></a>Trabajos</li>
-                    <li><a href="#contactos"></a>Contacto</li>
+                <ul class="listaNav">
+                    <li class="lista"><a class="link" href="#welcome-section">Acerca</a></li>
+                    <li class="lista"><a class="link" href="#projects">Trabajos</a></li>
+                    <li class="lista"><a class="link" href="#contactos">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,21 +28,63 @@
                 <h3>un Diseñador Web</h3>
             </section>
 
-
             <section id="projects">
-                <h1>Estos son algunos de mis Proyectos</h1>
-                <div class="project-tile">
+                <h2>Estos son algunos de mis Proyectos</h2>
 
+                <div class="project-tile">
+                    <div class="card" style="width: 100%;">
+                        <a href="https://ravenhrafnagud.github.io/PaginaTributo/"><img src="./imgs/PaginaTributo.png" class="card-img-top" alt="Pagina Tributo"></a>
+                        <div class="card-body">
+                          <p class="card-text">Pagina Tributo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile">
+                    <div class="card" style="width: 100%;">
+                        <a href="https://ravenhrafnagud.github.io/FormularioDeEncuestas/"><img src="./imgs/FormularioDeEncuesta.png" class="card-img-top" alt="Formulario de Encuesta"></a>
+                        <div class="card-body">
+                          <p class="card-text">Formulario de Encuestas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile">
+                    <div class="card" style="width: 100%;">
+                        <a href="https://ravenhrafnagud.github.io/ProductoComercial/"><img src="./imgs/ProductoComercial.png" class="card-img-top" alt="Producto Comercial"></a>
+                        <div class="card-body">
+                          <p class="card-text">Producto Comercial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile">
+                    <div class="card" style="width: 100%;">
+                        <a href="https://ravenhrafnagud.github.io/DocumentacionTecnica/"><img src="./imgs/DocumentacionTecnica.png" class="card-img-top" alt="Documentacion Tecnica"></a>
+                        <div class="card-body">
+                          <p class="card-text">Documentacion Tecnica</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-
             <section id="contactos">
-                <a href="https://github.com/RavenHrafnagud" id="profile-link">GitHub</a>
+                <h2>Trabajemos Juntos...</h2>
+                <h3>Crearemos Grandes Ideas.</h3>
+
+                <div class="enlaces">
+                    <div class="iconos">
+                        <a class="contantoLink" id="profile-link" href="https://github.com/RavenHrafnagud" target="_blank"><i class="fab fa-github"> GitHub</i></a>
+                    </div>
+                    
+                    <div class="iconos">
+                        <a class="contantoLink" href="https://codepen.io/ravenhrafnagud" target="_blank"><i class="fab fa-codepen"> Codepen</i></a>
+                    </div>  
+                </div> 
             </section>
         </main>
         <footer>
-
+            <p>Este portafolio personal presenta algunos ejercicios realizados para la presentacion de retos semanales de Academia Geek</p>
         </footer>
     </body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
