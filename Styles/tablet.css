@@ -1,6 +1,5 @@
 /* Barra de navegacion */
 .link{
-    display: block;
     font-size: 5rem;
     padding:1.5rem;
     padding-left: 4rem;
@@ -19,6 +18,19 @@ h1{
 
 h3{
     font-size: 5rem;
+}
+
+.fotoPerfil{
+    width: 40rem;
+    margin-top: 6rem;
+}
+
+.fotoPerfil img{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(50, 95, 126);
 }
 /* Fin Bienvenida */
 
