@@ -1,0 +1,61 @@
+/* Barra de navegacion */
+.link{
+    display: block;
+    font-size: 5rem;
+    padding:1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+/* Fin Barra de navegacion */
+
+
+/* _________________________ */
+
+
+/* Bienvenida */
+h1{
+    font-size: 8rem;
+}
+
+h3{
+    font-size: 5rem;
+}
+/* Fin Bienvenida */
+
+
+/* _________________________ */
+
+
+/* Proyectos */
+#projects{
+    padding: 10rem 1rem;
+}
+
+h2{
+    font-size: 6rem;
+}
+
+.project-tile{
+    width: 60rem;
+    font-size: 4rem;
+}
+/* Fin Proyectos */
+
+
+/* _________________________ */
+
+
+/* Contactos */
+.contantoLink {
+    font-size: 6rem;
+}
+/* Fin Contactos */
+
+
+/* _________________________ */
+
+
+/* Pie de Pagina */
+footer p{
+    font-size: 2.5rem;
+}
